@@ -1,6 +1,6 @@
 body{
-    color: #2E2F42;
-    font-family: Roboto, Raleway, sans-serif;
+    color:#434455;
+    font-family: "Roboto", sans-serif;
     background-color: #FFF;
     font-size: 16px;
     line-height: 24px;
@@ -8,9 +8,12 @@ body{
 
 
 .link {
-   letter-spacing: 0.32px;
+   letter-spacing: 0.02em;
    font-weight: 500;
    color: #2E2F42;
+   display: inline-flex;
+   align-items: flex-start;
+   gap: 40px;
 } 
  .link:hover,
  .link:focus {
@@ -27,23 +30,32 @@ body{
    color: #404BBF;
 }
 
-h1{
+
+ .write-us{
+   font-style: normal;
+ }
+ .main-title{
    color: #FFF;
    text-align: center;
    font-family: Roboto;
    font-size: 56px;
    font-weight: 700;
-   line-height: 60px;
+   line-height: 1.07;
    letter-spacing: 1.12px;
 }
 
  .top{
    background: #2E2F42;
    height: 600px;
+   width: 100%;
+   flex-shrink: 0;
  }
 
  .main-btn{
    color:  #FFF;
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   line-height: 1.5;
    letter-spacing: 0.64px;
    display: inline-flex;
    padding: 16px 32px;
@@ -67,24 +79,35 @@ h1{
    }
 
    
- h2{
+ .title-two{
    text-align: center;
    font-size: 36px;
    font-weight: 700;
-   line-height: 40px;
+   line-height: 1.11;
    letter-spacing: 0.72px;
    text-transform: capitalize;
  }
 
-h3{
+ .submain-title{
    font-size: 20px;
    font-weight: 500;
    line-height: 24px;
    letter-spacing: 0.4px;
 }
 
+.text{
+   letter-spacing: 0.02em;
+   color:#434455;
+   font-size: 16px;
+}
  .our-team{
-   background:  #F4F4FD;}
+   background:  #F4F4FD;
+   flex-shrink: 0;}
+
+.about-team{
+   background-color: #FFFFFF;
+
+}
 
 
   li a{
@@ -98,37 +121,24 @@ h3{
 
    .logo{
       text-decoration: none;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.17;
+      letter-spacing: 0.54px;
+      text-transform: uppercase;
    }
 
-  #web{
-    color: var(--iris);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-   
-  }
+  .logo-one{
+    color: #4d5ae5;   
+      }
     
-    #studio{
-        color: #F4F4FD;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 21px; /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;   
+   .logo-two{
+        color: #2e2f42;
     }
 
-    #studio-header{
-        color: #2E2F42;
-        font-family: Raleway;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 21px; /* 116.667% */
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
+   .logo-two-footer{
+        color:#f4f4fd;  
     }
 
  .footer-text{
