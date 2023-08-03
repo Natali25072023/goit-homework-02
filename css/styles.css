@@ -13,9 +13,7 @@ body{
    font-size: 16px;
    line-height: 1.5;
    color: #2e2f42;
-   display: inline-flex;
-   align-items: flex-start;
-   gap: 40px;
+   
  } 
 
  .link:hover,
@@ -51,9 +49,6 @@ body{
 
  .top{
    background: #2E2F42;
-   height: 600px;
-   width: 100%;
-   flex-shrink: 0;
  }
 
  .main-btn{
@@ -62,21 +57,14 @@ body{
    font-weight: 500;
    line-height: 1.5;
    letter-spacing: 0.64px;
-   display: inline-flex;
-   padding: 16px 32px;
-   align-items: flex-start;
-   gap: 10px;
    cursor: pointer;
-   border-radius: 4px;
    background: var(--iris, #4D5AE5);
-   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+   
  }
 
    .main-btn:hover, .main-btn:focus{
-      border-radius: 4px;
-      background: var(--ocean, #404BBF);
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-   
+     background: var(--ocean, #404BBF);
+         
    }
  
  
@@ -108,8 +96,7 @@ body{
 
  }
  .our-team{
-   background:  #F4F4FD;
-   flex-shrink: 0;}
+   background:  #F4F4FD;}
 
  .about-team{
    background-color: #FFFFFF;
@@ -150,11 +137,8 @@ body{
     color: #F4F4FD;
     font-family: Roboto;
     letter-spacing: 0.32px;
-    width: 264px;
  }
 
  .footer{
     background: #2E2F42;
-    width: 100%;
-    height: 312px;
  }
