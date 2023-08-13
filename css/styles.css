@@ -44,7 +44,7 @@ body{
    font-size: 56px;
    font-weight: 700;
    line-height: 1.07;
-   letter-spacing: 1.12px;
+   letter-spacing: 0.02em;
 }
 
  .top-section{
@@ -56,7 +56,7 @@ body{
    font-family: "Roboto", sans-serif;
    font-weight: 500;
    line-height: 1.5;
-   letter-spacing: 0.64px;
+   letter-spacing: 0.04em;
    cursor: pointer;
    background: var(--iris, #4D5AE5);
    
@@ -136,7 +136,7 @@ body{
  .footer-text{
     color: #F4F4FD;
     font-family: Roboto;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
  }
 
  .footer{
